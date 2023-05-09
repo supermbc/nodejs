@@ -60,7 +60,6 @@ app.post( "/avatar", avatar );
 // 管理员删除用户信息
 app.post( "/deluser", delUser );
 
-// 会议室操作：张瑜
 // 新增会议室
 app.post("/addroom", addRoom)
 // 获取所有会议室
@@ -68,14 +67,12 @@ app.post("/getallroom", getAllRoom)
 // 修改会议室配置
 app.post("/setroomconfig", setRoomConfig)
 
-// 会议操作：方祖全
 // 部门经理添加会议：修改指定会议室的状态
 // 修改会议：基本信息，会议状态，会议室状态
 app.post( "/addmeeting", addMeeting );
 app.post( "/getmeeting", getMeeting );
 app.post( "/setmeeting", setMeeting );
 
-// 部门操作：张硕
 // 添加部门：部门的各种字段
 // 获取部门：全部，单个
 // 修改部门：修改经理

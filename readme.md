@@ -15,6 +15,3 @@
 3. 启动项目：`npm start`
 4. 首页：`http://localhost:3000/index.html`
 5. 接口baseUrl：`http://localhost:3000`
-
-# 四、接口文档
-- 地址：https://www.apifox.cn/apidoc/shared-1c730a85-a030-4878-80be-46b976d51424
